@@ -1,0 +1,6 @@
+version: '2'
+services:
+  hello-world:
+    image: 'brohitdev/express-hello-world:latest'
+    ports:
+      - '8080:6000'
