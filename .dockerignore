@@ -1,0 +1,12 @@
+#gitlab
+.gitlab
+#git
+.git
+.gitattributes
+.gitignore
+node_modules/
+# Common
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
