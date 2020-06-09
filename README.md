@@ -8,11 +8,12 @@ A hello-world web application written in Node.js using Express module.
 * [License](#license)
 
 # About
+This is Hello-World program written in Node.js. 
 # Getting Started
 # Build
 # Usage
 # Release
-#License
+# License
 The source code files are made available under the Apache License, Version 2.0 (Apache-2.0), located in the [LICENSE](LICENSE) file.
 ### Node Express template project
 
