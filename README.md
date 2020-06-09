@@ -1,3 +1,5 @@
+<img src="img/logo.png" width="100" height="100" />
+
 # Node Express Hello World
 A hello-world web application written in Node.js using Express framework.
 * [Introduction](#introduction)
@@ -15,59 +17,77 @@ It is quite simple to get started with the Hello-World web server. It is complet
 ## Prerequisite
 Before you start with the web server, there are certain tools which are required to download.
 ### Git
+Download and install the latest version of Git. It will be used to clone the project repository.
+
 `sudo apt install git`
 ### cURL
+Download and install the latest version of cURL. It will be used to download nvm installation script and install.
+
 `sudo apt install curl`
 ### nvm
+Download and install the latest version of nvm. It will be used to install the latest version of node and npm.
+
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash`
 ### node
+Download and install the latest version of node. It will be utilized to run the web server.
+
 `nvm install node`
 ### docker
-https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+Download and install the latest version of Docker. It will be used to clone the project repository. You can find the detailed installation instructions [here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository).
 ## Build
 * Clone the project repository
-`git clone https://github.com/IoTCrawler/express-hello.git`
+
+  `git clone https://github.com/IoTCrawler/express-hello.git`
 * Go to directory and build
-`docker build -t myuser/myrepo:tag .`
+
+  `docker build -t myuser/myrepo:tag .`
 ## Usage
+### Without docker image
+* Install packages using npm
+
+  `npm install`
+* run the web server
+
+  `npm start`
+* Access in browser
+  [http://localhost:8000](http://localhost:8000)
 ### Using local docker image
 * Run the local docker image
-`docker run -p 8080:6000 -d myuser/myrepo:tag`
+
+  `docker run -p 8080:6000 -d myuser/myrepo:tag`
 * Access it in browser
-[http://localhost:8000](http://localhost:8000)
+
+  [http://localhost:8000](http://localhost:8000)
 ### With docker
 * Pull the image
 
-`docker pull brohitdev/express-hello-world:latest`
+  `docker pull brohitdev/express-hello-world:latest`
 
 * Run
 
-`docker run -p 8080:6000 -d brohitdev/express-hello-world:latest`
+  `docker run -p 8080:6000 -d brohitdev/express-hello-world:latest`
 
-* Access
+* Access in browser
 
-In browser 
-[http://localhost:8000](http://localhost:8000)
+  [http://localhost:8000](http://localhost:8000)
 ### With docker-compose
 * docker-compose.yml
-```
-version: '2'
-services:
-hello-world:
-  image: 'brohitdev/express-hello-world:latest'
-  ports:
-    - '8080:6000'
-```
+  ```
+  version: '2'
+  services:
+  hello-world:
+    image: 'brohitdev/express-hello-world:latest'
+    ports:
+      - '8080:6000'
+  ```
 * Run
 
-`docker-compose up -d`
+  `docker-compose up -d`
 
-* Access
-
-In browser 
-[http://localhost:8000](http://localhost:8000)
+* Access in browser 
+  [http://localhost:8000](http://localhost:8000)
 
 # Release
-Binary and source releases are provided on our Releases page.
+Binary and source releases are provided on our [Releases](https://github.com/IoTCrawler/express-hello/releases) page.
 # License
 The source code files are made available under the Apache License, Version 2.0 (Apache-2.0), located in the [LICENSE](LICENSE) file.
