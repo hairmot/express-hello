@@ -8,6 +8,8 @@ A hello-world web application written in [node.js](https://nodejs.org/en/) using
   * [Build](#build)
   * [Usage](#usage)
 * [Release](#release)
+* [Contributing](#contributing)
+* [Testing](#testing)
 * [License](#license)
 
 # Introduction
@@ -94,5 +96,9 @@ Download and install the latest version of Docker Compose. It is required define
 
 # Release
 Binary and source releases are provided on our [Releases](https://github.com/IoTCrawler/express-hello/releases) page.
+# Contributing
+We welcome contributions to the Hello-world project in many forms. We are busy creating the documentation. We will come soon.
+# Testing
+We are busy creating the documentation. We will come soon.
 # License
 The project source code files are made available under the Apache License, Version 2.0 (Apache-2.0), located in the [LICENSE](LICENSE) file.
