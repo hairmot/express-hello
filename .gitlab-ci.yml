@@ -85,7 +85,7 @@ test:
   needs: []
   script:
     - echo "check status"
-    - ./check-app-status
+    - ./check-app-status.sh
 
   rules:
     - if: "$TEST_DISABLED"
