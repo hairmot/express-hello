@@ -89,7 +89,6 @@ test:
 
   rules:
     - if: "$TEST_DISABLED"
-      when: never
 
 include:
   - template: Jobs/Build.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
