@@ -86,7 +86,7 @@ test:
   needs: []
   script:
     - echo "check status"
-    - ./check-app-status.sh
+    #- ./check-app-status.sh
 
 include:
   #- template: Jobs/Build.gitlab-ci.yml  # https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates/Jobs/Build.gitlab-ci.yml
